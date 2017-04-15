@@ -7,7 +7,7 @@ defmodule Euler03 do
   """
   def run do
     num = 600851475143
-    Util.time(fn -> Enum.max(Util.prime_factors(num)) end)
+    Enum.max(Util.prime_factors(num))
   end
 
 
