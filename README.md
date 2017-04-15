@@ -8,7 +8,7 @@ efficient/concise/beautiful/idiomatic way possible,
 but rather in a way that explores the different features of the language.
 
 ## Running
-- Fire up `iex` in the `src` directory
-- Load the Euler file you want to run with `c("number-of-problem.exs")`
-- Modules are Named `EulerXX`, where `XX` is the number of the exercise
-- Run `EulerXX.run`
+- Run `mix deps.get` to get the `remix` dependency, which auto-reloads code
+- Fire up `iex -S mix`
+- Run `EulerXX.run` to run a file
+- When editing and saving a file, `remix` will recompile the code
