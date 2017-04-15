@@ -1,3 +1,4 @@
+@doc "Explores handling state with processes by implementing a producer-pattern."
 defmodule Euler02 do
 
   @doc """

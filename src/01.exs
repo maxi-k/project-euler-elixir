@@ -1,3 +1,4 @@
+@doc "Explores ranges, pipes and Enum functions"
 defmodule Euler01 do
 
   @doc """
