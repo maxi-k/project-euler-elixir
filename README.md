@@ -1,11 +1,11 @@
 # Project Euler in Elixir
 
 Some of Project Euler's exercises implemented in Elixir,
-with the goal getting better at the language.
+with the goal of getting better at the language.
 
 The problems are not solved in the most
 efficient/concise/beautiful/idiomatic way possible,
-but in a way that explores the different features of the language.
+but rather in a way that explores the different features of the language.
 
 ## Running
 - Fire up `iex` in the `src` directory
