@@ -12,3 +12,10 @@ but rather in a way that explores the different features of the language.
 - Fire up `iex -S mix`
 - Run `EulerXX.run` to run a file
 - When editing and saving a file, `remix` will recompile the code
+
+## Compiling
+- Run `mix escript.build`, which produces a file called `project_euler_elixir`
+- Running it (`./project_euler_elixir`) will run all implemented
+  solutions to the euler problems
+- Running it with arguments (`./project_euler_elixir 01 02`) will only
+  run those solutions.
